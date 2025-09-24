@@ -1,9 +1,7 @@
 def add(a,b):
-    # Bug 1: wrong operator (should be +)
     return a - b
 
 def divide(a,b):
-    # Bug 2: no check for zero divisor
     return a / b
 
 def process_items(items):
